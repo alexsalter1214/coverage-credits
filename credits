@@ -4,3 +4,6 @@ git commit -m "Initial commit for Coverage Credits app"
 git branch -M main
 git remote add origin https://github.com/<your-username>/coverage-credits.git
 git push -u origin main
+git add package.json package-lock.json .npmrc vercel.json
+git commit -m "Fix npm peer dependency conflict and add .npmrc"
+git push origin main
